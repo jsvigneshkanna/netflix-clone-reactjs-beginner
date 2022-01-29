@@ -2,6 +2,10 @@
 
 Building beginner friendly Netflix 🎥 clone with React JS and many more tech stacks. This is been learnt and inspired from clever programmer YT course 📺. Come lets all learn together 💃 !!!
 
+# API Documentation
+
+[VK Postman TMDB Docs...](https://documenter.getpostman.com/view/15013868/UVeCQ8di)
+
 # Steps
 
 1. npx create-react-app netflix-clone (This will create react js boiler plate codes)
