@@ -7,6 +7,7 @@ const MoviePage = () => {
   return (
     <div>
       <Navbar pageType="movie" />
+      <div className="nav-black-area" style={{ height: "6vh" }}></div>
       <MovieRow title="Netflix Original" fetchUrl={requests.fetchOriginals} isLarge />
       <MovieRow title="Trending Now" fetchUrl={requests.fetchTrending} />
       <MovieRow title="Top Rated" fetchUrl={requests.fetchTopRated} />
