@@ -14,6 +14,7 @@ Building beginner friendly Netflix 🎥 clone with React JS and many more tech s
 # Dependencies
 
 1. react router dom (To get routing pages features)
+2. dotenv (To use env file configuration)
 
 # Tech Stacks
 
@@ -27,4 +28,6 @@ Building beginner friendly Netflix 🎥 clone with React JS and many more tech s
 
 1. [TMDB API for movie lists](https://www.themoviedb.org/settings/api)
 2. [Reactjs Routing GFG](https://www.geeksforgeeks.org/reactjs-router/)
-3. Faicons
+3. [Dotenv NPM](https://www.npmjs.com/package/dotenv)
+4. [Axios Instances](https://axios-http.com/docs/instance)
+5. Favicons
