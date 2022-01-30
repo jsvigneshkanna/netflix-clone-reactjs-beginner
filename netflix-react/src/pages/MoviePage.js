@@ -3,6 +3,8 @@ import Navbar from "../shared_components/NavBar";
 import MovieRow from "../components/MovieRow";
 import requests from "../middleware/Request";
 import MovieBanner from "../components/MovieBanner";
+import MovieFooter from "../components/MovieFooter";
+
 const MoviePage = () => {
   return (
     <div>
@@ -17,6 +19,7 @@ const MoviePage = () => {
       <MovieRow title="Horror Movies" fetchUrl={requests.fetchHorror} />
       <MovieRow title="Romance Movies" fetchUrl={requests.fetchRomance} />
       <MovieRow title="Documentary Movies" fetchUrl={requests.fetchDocumentaries} />
+      <MovieFooter />
     </div>
   );
 };
