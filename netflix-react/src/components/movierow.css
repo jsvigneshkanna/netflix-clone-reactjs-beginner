@@ -1,0 +1,30 @@
+.movie_row {
+  margin-left: 10px;
+}
+
+.row_heading {
+  font-size: large;
+  margin-bottom: 4px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.row_poster {
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
