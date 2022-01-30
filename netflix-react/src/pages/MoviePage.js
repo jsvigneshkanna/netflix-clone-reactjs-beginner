@@ -2,12 +2,13 @@ import React from "react";
 import Navbar from "../shared_components/NavBar";
 import MovieRow from "../components/MovieRow";
 import requests from "../middleware/Request";
-
+import MovieBanner from "../components/MovieBanner";
 const MoviePage = () => {
   return (
     <div>
       <Navbar pageType="movie" />
       <div className="nav-black-area" style={{ height: "6vh" }}></div>
+      <MovieBanner fetchUrl={requests.fetchOriginals} />
       <MovieRow title="Netflix Original" fetchUrl={requests.fetchOriginals} isLarge />
       <MovieRow title="Trending Now" fetchUrl={requests.fetchTrending} />
       <MovieRow title="Top Rated" fetchUrl={requests.fetchTopRated} />
