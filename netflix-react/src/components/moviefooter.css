@@ -7,7 +7,7 @@
   background-color: rgb(255, 0, 0, 0.1);
 }
 .credits {
-  font-size: 18px;
+  font-size: 15px;
 }
 .footer-btns {
   display: flex;
@@ -21,11 +21,16 @@
 .small-footer-btns {
   display: none;
 }
-
+.footer-btn:hover {
+  cursor: pointer;
+}
+.small-footer-btns:hover {
+  cursor: pointer;
+}
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1024px) {
   .credits {
-    font-size: 15px;
+    font-size: 12px;
   }
   .footer-btns {
     display: flex;

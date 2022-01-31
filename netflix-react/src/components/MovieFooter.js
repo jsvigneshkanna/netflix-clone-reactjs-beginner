@@ -9,9 +9,9 @@ const MovieFooter = () => {
     <div className="footer">
       <div className="credits">Made by JS Vignesh Kanna Jan - 2022</div>
       <div className="footer-btns">
-        <HomeRoundedIcon fontSize="large" className="footer-btn" />
-        <ArrowDownwardIcon fontSize="large" className="footer-btn" />
-        <MenuOpenIcon fontSize="large" className="footer-btn" />
+        <HomeRoundedIcon fontSize="medium" className="footer-btn" />
+        <ArrowDownwardIcon fontSize="medium" className="footer-btn" />
+        <MenuOpenIcon fontSize="medium" className="footer-btn" />
       </div>
       <div className="small-footer-btns">
         <HomeRoundedIcon fontSize="small" className="footer-btn" />
