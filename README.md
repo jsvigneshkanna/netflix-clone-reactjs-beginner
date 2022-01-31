@@ -5,6 +5,7 @@ Building beginner friendly Netflix 🎥 clone with React JS and many more tech s
 # Live Project
 
 [Netlify Project Link ...](https://vkflix.netlify.app/)
+![Live Project Demo](live_project_demo.png)
 
 # API Documentation
 
