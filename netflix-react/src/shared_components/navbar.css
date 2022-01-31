@@ -2,18 +2,18 @@ nav {
   display: flex;
   justify-content: start;
   align-items: center;
-  height: 6vh;
+  height: 7vh;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   padding-left: 10px;
-  background-color: rgba(10, 0, 0, 0.5);
+  background-color: rgba(10, 0, 0, 0.6);
 }
 .logo {
-  margin-top: 10px;
+  padding-top: 10px;
   object-fit: fill;
-  height: 6vh;
+  height: 5vh;
   width: 15vh;
   /* margin-right: 20px; */
 }
@@ -67,10 +67,14 @@ a:hover {
 
 /* Mobile | Small */
 @media only screen and (max-width: 560px) {
+  .logo {
+    padding-left: 15px;
+    padding-top: 7px;
+  }
   nav {
     flex-direction: column;
     align-items: flex-start;
-    background-color: rgb(255, 0, 0, 0);
+    padding-left: 0px;
   }
   .nav-icon {
     margin-right: 20px;
@@ -84,8 +88,9 @@ a:hover {
   .other-nav {
     display: none;
     flex-direction: column;
-    background-color: rgba(7, 0, 0, 0.4);
-    margin-right: 10px;
+    background-color: rgba(7, 0, 0, 0.6);
+    /* margin-right: 100px; */
+    padding: 20px 0;
   }
   .nav-items {
     flex-direction: column;
@@ -95,6 +100,7 @@ a:hover {
     font-size: x-large;
     font-weight: 900;
     color: white;
+    letter-spacing: 2px;
   }
   .nav-symbols {
     justify-content: space-around;
