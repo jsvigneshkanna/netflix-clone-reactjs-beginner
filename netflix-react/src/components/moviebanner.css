@@ -104,6 +104,9 @@ button:hover {
   }
   h1 {
     font-size: 1.2rem;
+    font-weight: bolder;
+    text-shadow: 1px 2px white;
+    letter-spacing: 3px;
   }
   p {
     font-weight: 400;

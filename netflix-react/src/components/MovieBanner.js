@@ -19,6 +19,15 @@ const MovieBanner = ({ fetchUrl }) => {
     }
     fetchData();
   }, [fetchUrl]);
+
+  // Function to trim movie overview to 100 chars
+  const trimChar = (chars) => {
+    if (chars.length >= 120) {
+      const trimmedChars = chars.substring(0, 120);
+      return `${trimmedChars} ${"..."}`;
+    }
+    return chars;
+  };
   return (
     <header
       className="banner"
@@ -32,7 +41,7 @@ const MovieBanner = ({ fetchUrl }) => {
       <div className="banner_layout">
         <div className="banner_content">
           <h1>{(banner?.title || banner?.name || banner?.original_name || "TITLE").toUpperCase()}</h1>
-          <p>{banner.overview}</p>
+          <p>{trimChar(banner.overview || "Movie Description")}</p>
           <div className="btn_row">
             <button>
               <PlayArrowIcon /> Play
